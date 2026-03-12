@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="corporate">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>木语家居展厅</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-h-screen bg-base-200 text-base-content">
+    <div class="navbar sticky top-0 z-30 bg-base-100 border-b border-base-300 px-4 lg:px-10">
+      <div class="navbar-start gap-3">
+        <div class="avatar placeholder">
+          <div class="bg-primary text-primary-content w-10 rounded-lg font-bold">木</div>
+        </div>
+        <div>
+          <p class="font-bold leading-tight">木语家居</p>
+          <p class="text-xs text-base-content/60">Flat Furniture Gallery</p>
+        </div>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 gap-1">
+          <li><a href="#series">系列推荐</a></li>
+          <li><a href="#products">精选单品</a></li>
+          <li><a href="#spaces">空间方案</a></li>
+          <li><a href="#contact">预约到店</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <button class="btn btn-primary btn-sm md:btn-md rounded-lg">领取选品手册</button>
+      </div>
+    </div>
+
+    <header class="max-w-6xl mx-auto px-4 lg:px-6 pt-8">
+      <section class="grid lg:grid-cols-2 gap-6 items-stretch">
+        <article class="bg-base-100 border border-base-300 rounded-2xl p-8 flex flex-col justify-center gap-5">
+          <span class="badge badge-primary badge-outline w-fit">2026 家具新作</span>
+          <h1 class="text-4xl md:text-5xl font-black leading-tight">扁平设计语言，重塑温暖家居展示体验</h1>
+          <p class="text-base-content/70">
+            以简洁块面、统一留白与直观信息分层，展示客厅、卧室与餐厨家具组合，帮助你快速找到适合自家空间的风格方案。
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <button class="btn btn-primary rounded-lg">预约导览</button>
+            <button class="btn btn-outline rounded-lg">查看新品目录</button>
+          </div>
+        </article>
+
+        <article class="bg-base-100 border border-base-300 rounded-2xl overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=80"
+            alt="现代客厅家具"
+            class="w-full h-full object-cover min-h-[320px]"
+          />
+        </article>
+      </section>
+
+      <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+        <div class="bg-base-100 border border-base-300 rounded-xl p-4">
+          <p class="text-sm text-base-content/60">在展系列</p>
+          <p class="text-2xl font-black text-primary mt-1">12</p>
+        </div>
+        <div class="bg-base-100 border border-base-300 rounded-xl p-4">
+          <p class="text-sm text-base-content/60">家具单品</p>
+          <p class="text-2xl font-black text-secondary mt-1">240+</p>
+        </div>
+        <div class="bg-base-100 border border-base-300 rounded-xl p-4">
+          <p class="text-sm text-base-content/60">设计顾问</p>
+          <p class="text-2xl font-black text-accent mt-1">18</p>
+        </div>
+        <div class="bg-base-100 border border-base-300 rounded-xl p-4">
+          <p class="text-sm text-base-content/60">客户好评</p>
+          <p class="text-2xl font-black mt-1">98%</p>
+        </div>
+      </section>
+    </header>
+
+    <main class="px-4 lg:px-6 pb-16">
+      <section id="series" class="max-w-6xl mx-auto mt-14">
+        <div class="mb-6 flex items-end justify-between gap-3 flex-wrap">
+          <div>
+            <h2 class="text-3xl font-bold">系列推荐</h2>
+            <p class="text-base-content/70 mt-1">采用统一扁平化卡片系统，快速对比不同风格系列</p>
+          </div>
+          <a href="#" class="btn btn-ghost btn-sm rounded-lg">查看全部系列</a>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-5">
+          <article class="bg-base-100 border border-base-300 rounded-xl overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1616594039964-3f3b4fdd4b07?auto=format&fit=crop&w=1200&q=80" alt="北欧客厅系列" class="h-52 w-full object-cover" />
+            <div class="p-5 space-y-2">
+              <h3 class="font-bold text-lg">北欧自然客厅</h3>
+              <p class="text-sm text-base-content/70">浅木与柔和织物搭配，打造清爽舒适的家庭会客空间。</p>
+              <span class="badge badge-outline">18 件单品</span>
+            </div>
+          </article>
+
+          <article class="bg-base-100 border border-base-300 rounded-xl overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80" alt="现代卧室系列" class="h-52 w-full object-cover" />
+            <div class="p-5 space-y-2">
+              <h3 class="font-bold text-lg">现代静谧卧室</h3>
+              <p class="text-sm text-base-content/70">低对比色彩与隐藏收纳设计，提升休息质量与整洁度。</p>
+              <span class="badge badge-outline">12 件单品</span>
+            </div>
+          </article>
+
+          <article class="bg-base-100 border border-base-300 rounded-xl overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1556911220-bda9f7f7597e?auto=format&fit=crop&w=1200&q=80" alt="餐厨一体系列" class="h-52 w-full object-cover" />
+            <div class="p-5 space-y-2">
+              <h3 class="font-bold text-lg">餐厨一体空间</h3>
+              <p class="text-sm text-base-content/70">餐桌、灯具与收纳边柜有序组合，平衡效率与社交感。</p>
+              <span class="badge badge-outline">15 件单品</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="products" class="max-w-6xl mx-auto mt-14">
+        <div class="mb-6">
+          <h2 class="text-3xl font-bold">精选单品</h2>
+          <p class="text-base-content/70 mt-1">高频咨询家具一页直达，便于快速加入选购清单</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-5">
+          <article class="bg-base-100 border border-base-300 rounded-xl overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1581539250439-c96689b516dd?auto=format&fit=crop&w=900&q=80" alt="云感模块沙发" class="h-48 w-full object-cover" />
+            <div class="p-4">
+              <h3 class="font-bold">云感模块沙发</h3>
+              <p class="text-sm text-base-content/70 mt-1">可自由组合，适配不同客厅尺度。</p>
+              <div class="flex items-center justify-between mt-3">
+                <span class="font-bold text-primary">¥6,899</span>
+                <button class="btn btn-xs btn-primary rounded-lg">加入清单</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="bg-base-100 border border-base-300 rounded-xl overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1519947486511-46149fa0a254?auto=format&fit=crop&w=900&q=80" alt="原木长餐桌" class="h-48 w-full object-cover" />
+            <div class="p-4">
+              <h3 class="font-bold">原木长餐桌</h3>
+              <p class="text-sm text-base-content/70 mt-1">白蜡木台面，4-8 人家庭适用。</p>
+              <div class="flex items-center justify-between mt-3">
+                <span class="font-bold text-primary">¥4,299</span>
+                <button class="btn btn-xs btn-primary rounded-lg">加入清单</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="bg-base-100 border border-base-300 rounded-xl overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="悬浮软包床" class="h-48 w-full object-cover" />
+            <div class="p-4">
+              <h3 class="font-bold">悬浮软包床</h3>
+              <p class="text-sm text-base-content/70 mt-1">人体工学靠背，稳定静音结构。</p>
+              <div class="flex items-center justify-between mt-3">
+                <span class="font-bold text-primary">¥5,699</span>
+                <button class="btn btn-xs btn-primary rounded-lg">加入清单</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="bg-base-100 border border-base-300 rounded-xl overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=900&q=80" alt="极简玄关柜" class="h-48 w-full object-cover" />
+            <div class="p-4">
+              <h3 class="font-bold">极简玄关柜</h3>
+              <p class="text-sm text-base-content/70 mt-1">薄柜深度设计，提升入户收纳效率。</p>
+              <div class="flex items-center justify-between mt-3">
+                <span class="font-bold text-primary">¥2,399</span>
+                <button class="btn btn-xs btn-primary rounded-lg">加入清单</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="spaces" class="max-w-6xl mx-auto mt-14 grid lg:grid-cols-2 gap-6">
+        <article class="bg-base-100 border border-base-300 rounded-2xl p-6">
+          <h2 class="text-2xl font-bold">空间搭配步骤</h2>
+          <ul class="steps steps-vertical mt-4">
+            <li class="step step-primary">确认风格关键词：原木 / 侘寂 / 轻奢</li>
+            <li class="step step-primary">根据户型选择主家具尺寸</li>
+            <li class="step step-primary">按动线补充收纳与照明单品</li>
+            <li class="step step-primary">预约到店，实景体验材质与坐感</li>
+          </ul>
+        </article>
+
+        <article class="bg-base-100 border border-base-300 rounded-2xl overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1617104551722-3b2d51366400?auto=format&fit=crop&w=1400&q=80" alt="家具空间实景" class="w-full h-full object-cover min-h-[320px]" />
+        </article>
+      </section>
+
+      <section id="contact" class="max-w-6xl mx-auto mt-14 bg-base-100 border border-base-300 rounded-2xl p-6 lg:p-8">
+        <div class="flex items-end justify-between gap-4 flex-wrap mb-5">
+          <div>
+            <h2 class="text-2xl font-bold">预约到店体验</h2>
+            <p class="text-base-content/70 mt-1">填写信息后，设计顾问将在 30 分钟内联系你。</p>
+          </div>
+          <span class="badge badge-outline">今日剩余 9 个名额</span>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <label class="form-control w-full">
+            <span class="label-text mb-1">姓名</span>
+            <input type="text" placeholder="请输入姓名" class="input input-bordered rounded-lg" />
+          </label>
+          <label class="form-control w-full">
+            <span class="label-text mb-1">手机号</span>
+            <input type="tel" placeholder="请输入手机号" class="input input-bordered rounded-lg" />
+          </label>
+          <label class="form-control w-full">
+            <span class="label-text mb-1">预约日期</span>
+            <input type="date" class="input input-bordered rounded-lg" />
+          </label>
+          <label class="form-control w-full">
+            <span class="label-text mb-1">到店时段</span>
+            <select class="select select-bordered rounded-lg">
+              <option>10:00 - 12:00</option>
+              <option>13:00 - 15:00</option>
+              <option>15:00 - 17:00</option>
+              <option>18:00 - 20:00</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="flex justify-end mt-5">
+          <button class="btn btn-primary rounded-lg">立即预约</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer footer-center bg-base-100 border-t border-base-300 text-base-content p-8">
+      <aside>
+        <p class="font-semibold">木语家居展厅 © 2026</p>
+        <p class="text-sm text-base-content/70">扁平化家具展示首页 · 基于 daisyUI 设计</p>
+      </aside>
+    </footer>
+  </body>
+</html>
